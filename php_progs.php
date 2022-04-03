@@ -57,3 +57,16 @@
             ?>
         </p>
     </div>
+    <div class="sqrt_div">
+        <p class="sqrt_text">Print the square root of 6,561!</p>
+    </div>
+    <div class="sqrt_div">
+        <p class="sqrt_text">
+            <?php
+                echo(sqrt(6561));
+            ?>
+        </p>
+    </div>
+
+</body>
+</html>
