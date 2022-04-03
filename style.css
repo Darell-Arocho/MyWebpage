@@ -171,6 +171,34 @@ body{
     background: green;
 }
 
+.guns_text_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guns_par{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+}
+
+.guns_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guns_poster{
+    height: 400px;
+    position: relative;
+    top: 120px;
+}
+
+.guns_poster:hover{
+    border: 5px solid rgb(232, 116, 20);
+}
 
 /* This is the CV CSS part */
 .cv_div{
