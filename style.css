@@ -327,3 +327,60 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* PHP page */
+.php_div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.php_fib{
+    color: white;
+    font-size: 25px;
+}
+
+.php_fib_btn{
+    color: white;
+    font-size: 20px;  
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+.php_fib_color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.php_print{
+    color: white;
+    font-size: 25px;
+}
+
+.php_fact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+.php_fact_text{
+    color: white;
+    font-size: 25px;
+}
+
+.sqrt_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.sqrt_text{
+    color: white;
+    font-size: 25px;
+}
