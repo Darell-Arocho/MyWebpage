@@ -73,6 +73,22 @@ body{
     top: 7px;
 }
 
+.btn_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_btn{
+    text-decoration: none;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
 /* This is the CV CSS part */
 .cv_div{
     border: 5px solid white;
