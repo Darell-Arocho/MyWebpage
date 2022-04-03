@@ -200,6 +200,49 @@ body{
     border: 5px solid rgb(232, 116, 20);
 }
 
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.input_par{
+    color: white;
+    font-size: 25px;
+}
+.submit_btn{
+    color: white;
+    font-size: 20px;  
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+    position: relative;
+    left: 5px;
+}
+
+.input_div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 160px;
+}
+
+.result_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squared_result{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 165px;
+}
+
 /* This is the CV CSS part */
 .cv_div{
     border: 5px solid white;
