@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /*background: linear-gradient(to right, #222722, #153f57);*/
+    background-color: rgb(28, 28, 97);
+}
+
+.container{
+   margin: 10px;
+   padding: 30px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    background-color: transparent;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navs:active{
+    color: red;
+}
+
+.center_area{
+    background-image: url(images/hands_code.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.center_header{
+    height: 100px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgb(45, 98, 245);
+}
+
+.socials{
+    display: flex;
+}
+
+.twitLogo{
+    height: 50px;
+    position: relative;
+    left: 1450px;
+    top: 7px;
+    
+}
+
+.gitLogo{
+    height: 50px;
+    position: relative;
+    left: 1325px;
+    top: 7px;
+}
