@@ -20,3 +20,25 @@
                 </ul>
             </div>
     </div>
+    <div class="php_div1">
+        <p class="php_fib">Print the first 10 elements of the Fibonacci Sequence!</p>
+    </div>    
+    <div class="php_fib_color">
+        <p class="php_print">
+        <?php 
+            $x = 0;    
+            $y = 1; 
+            
+            echo $x.", ";
+            echo $y.", ";
+
+            for($i=0;$i<=7;$i++)    
+            {    
+                $z = $x + $y;    
+                echo $z.", ";         
+                $x=$y;       
+                $y=$z;     
+            }   
+        ?>
+        </p>
+    </div>
