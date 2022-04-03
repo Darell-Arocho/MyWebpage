@@ -54,3 +54,16 @@ function playChild(){
         guns_par.innerHTML = "Click on the album to listen to an incredible song!";
     }
 }
+
+function square(){
+    //let name = document.getElementById("user_input");
+    let userInput = document.getElementById("user_input");
+    let sqNum = document.getElementById("squared_num");
+    //let userConv;
+    let squared;
+    
+    //userConv = parseInt(userInput);
+    squared = userInput.value * userInput.value;
+
+    sqNum.innerHTML = squared;
+}
