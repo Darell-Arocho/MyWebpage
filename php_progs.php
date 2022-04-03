@@ -42,3 +42,18 @@
         ?>
         </p>
     </div>
+    <div class="php_fact">
+        <p class="php_fact_text">Print the factorial of 5!</p>   
+    </div>
+    <div class="php_fact">
+        <p class="php_fact_text">
+            <?php
+                $five = 5;
+                
+                for($i=4;$i>0;$i--){
+                    $five = $five * $i;
+                }
+                echo $five;
+            ?>
+        </p>
+    </div>
