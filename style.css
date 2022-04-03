@@ -131,6 +131,47 @@ body{
     color:white
 }
 
+.lamboPic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lamboText{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+}
+
+.lambo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camry{
+    position: relative;
+    top: 70px;
+}
+
+.lambo_btn_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lambo_btn{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 80px;  
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+
 /* This is the CV CSS part */
 .cv_div{
     border: 5px solid white;
