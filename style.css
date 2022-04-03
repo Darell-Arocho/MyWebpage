@@ -72,3 +72,88 @@ body{
     left: 1325px;
     top: 7px;
 }
+
+/* This is the CV CSS part */
+.cv_div{
+    border: 5px solid white;
+    height: 400px;
+    width: 1535px;
+}
+
+.cv_name{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv_mob_email{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_items{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_par{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu_par{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis_par{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro_ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px
+}
+
+.courses_header{
+    color: white;
+}
+
+.cv_line{
+    color: white;
+    position: relative;
+    bottom: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
