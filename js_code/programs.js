@@ -40,3 +40,17 @@ function changeCamry(){
         document.getElementById("changeCamry").src="./images/toyota_camry.jpg";
     }*/
 }
+
+function playChild(){
+    let guns_par = document.getElementById("guns_text");
+    let guns_audio = document.getElementById("guns_song");
+
+    if(guns_audio.paused){
+        guns_audio.play();
+        guns_par.innerHTML = "Sweet Child O' Mine is playing!";
+    }
+    else{
+        guns_audio.pause();
+        guns_par.innerHTML = "Click on the album to listen to an incredible song!";
+    }
+}
